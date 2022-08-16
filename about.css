@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lobster&family=Source+Code+Pro:wght@300&family=Yesteryear&display=swap");
+
+.abmain {
+  /* background-color:yellow; */
+  width: 100vw;
+  height: 58vh;
+}
+
+.heading-1 {
+  color: rgb(71 67 137);
+}
+
+.heading-1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: -14px -14px 23px rgb(124 61 48 / 24%),
+    14px 14px 23px rgb(125 54 191 / 24%);
+  text-align: center;
+}
+
+.abinfocontainer {
+  background-color: gray;
+  height: 148vh;
+  width: 80vw;
+  margin: 104px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.edu {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.pre {
+  line-height: 50px;
+  font-size: 30px;
+  text-align: center;
+
+  margin: 0px 10px;
+  font-family: "Yesteryear", cursive;
+}
+
+.edudetails {
+  border: rgba(0, 0, 0, 0);
+  background-color: black;
+  border-radius: 10px;
+  width: 60vw;
+  height: 15vw;
+  display: grid;
+  grid-template-columns: 50vw 10vw;
+  box-shadow: 3px -2px 10px #c13030;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: white;
+}
+.edutotal{
+  margin:  20px 10px;
+}
+
+
+
+.degree {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.markbox {
+
+
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
+  font-size: 38px;
+  font-weight: bold;
+  border: rgba(0, 0, 0, 0);
+  background-color: gray;
+  border-radius: 15px;
+  place-content: center;
+  color: black;
+
+}
+
+.markbox p {
+  margin-top: 10px;
+}
